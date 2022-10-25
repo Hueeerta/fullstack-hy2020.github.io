@@ -535,6 +535,10 @@ const App = () => {
 ```
 
 This saves you from having to manually input data into your application for testing out your new functionality.
+  
+You will notice that we are starting to work with data from a kind of <i>database<i>. Recall that React's states allow us to add state variants to our components since the users interact with them through the browser. Although we are setting the initial state of data for the person's list, you should not use states as your data source for display the list or add new persons.
+
+In [part 2c](/en/part2/getting_data_from_server) we are going to cover how to communicate with a server. But, for now, you can find different ways to manage yout data locally. Among them, you can take advantage of the browser's [localStorage](https://www.robinwieruch.de/local-storage-react/).
 
 <h4>2.10: The Phonebook Step5</h4>
 
